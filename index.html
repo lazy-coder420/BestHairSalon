@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luxury Barber Salon</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  
+</head>
+<body class="bg-[#f5f5f5] text-gray-800">
+
+  <!-- Navbar -->
+  <header class="bg-[#24333d] text-white">
+    <nav class="max-w-7xl mx-auto flex justify-between items-center px-8 py-4">
+      <h1 class="text-3xl font-bold text-amber-500">Logo</h1>
+      <ul class="hidden md:flex gap-8 text-sm uppercase tracking-wider">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Pages</a></li>
+        <li><a href="#services">Portfolio</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Shop</a></li>
+      </ul>
+      <button class="bg-amber-500 px-4 py-2 text-sm">Appointment</button>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="relative h-[650px] bg-cover bg-center" style="background-image:url('https://images.unsplash.com/photo-1622287162716-f311baa1a2b8?q=80&w=1400');">
+    <div class="absolute inset-0 bg-black/50"></div>
+    <div class="relative max-w-7xl mx-auto h-full flex items-center px-8">
+      <div class="text-white max-w-xl">
+        <p class="text-amber-400 mb-3">Welcome to Our Barber</p>
+        <h2 class="text-5xl font-bold leading-tight mb-6">Best Hair Salon for a Professional Look</h2>
+        <div class="flex gap-4">
+          <button class="bg-amber-500 px-6 py-3">Read More</button>
+          <button class="border border-white px-6 py-3">Contact Us</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="max-w-6xl mx-auto py-20 px-8 grid md:grid-cols-2 gap-12 items-center">
+    <!-- <div class="grid grid-cols-2 gap-4">
+      <img src="https://images.unsplash.com/photo-1503951458645-643d53bfd90f" class="h-64 w-full object-cover" />
+      <img src="https://images.unsplash.com/photo-1517832606299-7ae9b720a186" class="h-64 w-full object-cover mt-8" />
+    </div> -->
+    <div>
+      <p class="text-amber-500">About Us</p>
+      <h3 class="text-4xl font-bold mb-4">Best Haircut Salons For Men Women</h3>
+      <p class="text-gray-600 leading-7">Professional salon service with premium haircut, beard trim, facial care and modern styling for every customer.</p>
+      <button class="mt-6 bg-amber-500 text-white px-5 py-3">Read More</button>
+    </div>
+  </section>
+
+<!-- Services -->
+<section id="services" class="bg-white py-20">
+  <div class="max-w-6xl mx-auto px-8 text-center">
+    <p class="text-amber-500">Our Services</p>
+    <h3 class="text-4xl font-bold mb-10">Popular Hair Cutting And Salon</h3>
+
+    <div class="grid md:grid-cols-5 gap-6">
+
+      <div class="p-6 shadow rounded-lg cursor-pointer transition duration-300 hover:bg-amber-500 hover:text-white hover:scale-105">
+        <i class="fa-solid fa-scissors text-amber-500 text-2xl hover:text-white"></i>
+        <p class="mt-3">Trend Haircut</p>
+      </div>
+
+      <div class="p-6 shadow rounded-lg cursor-pointer transition duration-300 hover:bg-amber-500 hover:text-white hover:scale-105">
+        <i class="fa-solid fa-palette text-amber-500 text-2xl hover:text-white"></i>
+        <p class="mt-3">Hair Color</p>
+      </div>
+
+      <div class="p-6 shadow rounded-lg cursor-pointer transition duration-300 hover:bg-amber-500 hover:text-white hover:scale-105">
+        <i class="fa-solid fa-face-smile text-amber-500 text-2xl hover:text-white"></i>
+        <p class="mt-3">Facial Hair</p>
+      </div>
+
+      <div class="p-6 shadow rounded-lg cursor-pointer transition duration-300 hover:bg-amber-500 hover:text-white hover:scale-105">
+        <i class="fa-solid fa-spa text-amber-500 text-2xl hover:text-white"></i>
+        <p class="mt-3">Leather Shave</p>
+      </div>
+
+      <div class="p-6 shadow rounded-lg cursor-pointer transition duration-300 hover:bg-amber-500 hover:text-white hover:scale-105">
+        <i class="fa-solid fa-hands text-amber-500 text-2xl hover:text-white"></i>
+        <p class="mt-3">Head Massage</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Booking Banner -->
+
+<img src="" alt="">
+<section
+  class="relative text-white py-20 mt-10  bg-cover bg-center">
+
+  <!-- Dark overlay -->
+<!-- <img src="./image /Booking Now.png" alt="">  -->
+
+  <!-- Content -->
+  <div class="relative max-w-6xl mx-auto px-8 flex justify-between items-center">
+    <div>
+      <p class="text-amber-400">Booking Now</p>
+      <h3 class="text-4xl font-bold">
+        Book your appointment and call our salon
+      </h3>
+      <button class="mt-6 bg-amber-500 px-6 py-3">
+        Book Appointment
+      </button>
+    </div>
+
+    <div class="bg-white text-gray-800 p-8 text-center rounded-lg shadow-lg">
+      <i class="fa-solid fa-phone text-amber-500 text-3xl"></i>
+      <p class="mt-3">
+        Call Now <br />
+        +880 123456789
+      </p>
+    </div>
+  </div>
+</section>
+
+  <!-- Products + Hours -->
+  <section class="max-w-6xl mx-auto py-20 px-8">
+    
+    <div class="grid md:grid-cols-2 gap-0 shadow-lg overflow-hidden">
+      <img src="./image /image.png" class="w-full h-full object-cover" />
+      <div class="bg-amber-600 text-white p-12">
+        <h4 class="text-3xl font-bold mb-6">Working Hours</h4>
+        <div class="space-y-4 text-lg">
+          <p>Monday - 9AM - 6PM</p>
+          <p>Tuesday - 9AM - 6PM</p>
+          <p>Wednesday - 9AM - 6PM</p>
+          <p>Thursday - 9AM - 6PM</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="bg-white py-20">
+    <div class="max-w-6xl mx-auto px-8">
+      <h3 class="text-4xl font-bold mb-10">What Our Customer Say</h3>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="p-6 shadow">Excellent haircut and premium service.</div>
+        <div class="p-6 shadow">Best salon environment and friendly staff.</div>
+        <div class="p-6 shadow">Very professional barber and clean setup.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog -->
+  <section id="blog" class="max-w-6xl mx-auto mb-40 py-20 px-8">
+    <h2 class=" flex justify-center items-center">Blog and Article</h2>
+    <h3 class="text-center text-4xl font-bold mb-10">Read Our Blog and News</h3>
+    <div class="grid md:grid-cols-3 gap-6">
+      <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f" class="h-64 w-full object-cover" />
+      <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1" class="h-64 w-full object-cover" />
+      <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70" class="h-64 w-full object-cover" />
+    </div>
+  </section>
+
+<!-- Footer Gallery -->
+<section class="bg-[#2f3d46] pt-16 mt-3">
+  <div class="max-w-7xl mx-auto px-6">
+    
+    <!-- Top Images -->
+    <div class="grid grid-cols-6 gap-4 -mt-24">
+      <img src="./image /image copy.png" class="w-full h-44 object-cover" alt="">
+      <img src="./image /image copy.png" class="w-full h-44 object-cover" alt="">
+      <img src="./image /image copy.png" class="w-full h-44 object-cover" alt="">
+      <img src="./image /image copy.png" class="w-full h-44 object-cover" alt="">
+      <img src="./image /image copy.png" class="w-full h-44 object-cover" alt="">
+      <img src="./image /image copy.png" class="w-full h-44 object-cover" alt="">
+    </div>
+
+    <!-- Middle Footer -->
+    <div class="py-20 flex justify-between items-center">
+      
+      <!-- Left -->
+      <div>
+        <h2 class="text-5xl font-bold text-amber-500 mb-6">Logo</h2>
+
+        <div class="flex gap-8 text-white text-sm">
+          <a href="#">Haircut</a>
+          <a href="#">Haircolor</a>
+          <a href="#">Hair Massage</a>
+          <a href="#">Hair Wash</a>
+        </div>
+      </div>
+
+      <!-- Right Subscribe -->
+      <div class="flex">
+        <input
+          type="email"
+          placeholder="Email Address"
+          class="px-6 py-4 bg-transparent border border-amber-500 text-white outline-none w-72"
+        />
+        <button class="bg-amber-500 text-white px-8">
+          SUBSCRIBE
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Footer -->
+  <div class="border-t border-gray-600">
+    <div class="max-w-7xl mx-auto px-6 py-6 flex justify-between items-center">
+      
+      <p class="text-white text-sm">
+        Copyright @ 2025, website by Logo
+      </p>
+
+      <div class="flex gap-6 text-white text-2xl">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+        <i class="fa-brands fa-behance"></i>
+        <i class="fa-solid fa-basketball"></i>
+        <i class="fa-brands fa-snapchat"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
